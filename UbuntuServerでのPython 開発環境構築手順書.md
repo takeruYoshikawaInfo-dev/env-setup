@@ -76,7 +76,7 @@ Internet Check: Status 200 (Success)
 
 ## 8. 運用上の注意
 * **環境の終了**: `deactivate` コマンドを実行する。
-* **環境の再開**: プロジェクトディレクトリにて `source /venv/bin/activate` を実行する。
+* **環境の再開**: プロジェクトディレクトリにて `source .venv/bin/activate` を実行する。
 * **IDE（VS Code等）の設定**: インタープリターのパスとして `~/my-project/.config/venv/bin/python` を指定する。
 
 ---
