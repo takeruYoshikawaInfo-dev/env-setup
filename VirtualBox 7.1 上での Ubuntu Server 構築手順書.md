@@ -46,7 +46,9 @@
 2. Network connections 画面で、eth0 等に 192.168.xx.xx などの IP アドレスが自動で割り当てられていることを確認。
 3. Profile setup 画面で、ログイン用のユーザー名とパスワードを設定。
 4. SSH Setup 画面で **[X] Install OpenSSH server** にチェックを入れる（スペースキーで選択）。
-5. インストール完了後、Reboot Now を選択。
+   <img width="1282" height="875" alt="image" src="https://github.com/user-attachments/assets/d212247b-1c54-449d-9849-1faf52c2dc67" />
+
+6. インストール完了後、Reboot Now を選択。
 
 
 ## 4. SSH 接続手順 (Tera Term)
@@ -77,3 +79,4 @@ ip addr show enp0s3
 ## 7. 情報出典元
 * VirtualBox Networking Modes: https://www.virtualbox.org/manual/ch06.html
 * Ubuntu Server Guide: https://ubuntu.com/server/docs
+* Ubuntu Server Download : https://ubuntu.com/download/server
